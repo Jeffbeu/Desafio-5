@@ -1,0 +1,225 @@
+
+@import url('css/font-awesome.min.css');
+@import url('css/bootstrap.min.css');
+@import url('css/owl.carousel.css');
+@import url('css/jquery.listtopie.css');
+@import url('css/animations.css');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+
+:root {
+    --primary: #1A4855;
+    --secundary: #62be75;
+    --white: #f9f9f9;
+  }
+  #preloader{background: url(image/ilustracao.png) center no-repeat var(--white);}
+  body, html {height: 100%; margin: 0; padding: 0;}
+  body{line-height: 24px; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; letter-spacing: 0px;}
+  img {height: auto; max-width: 100%;}
+  a, a:focus, button:focus {outline: none !important;  text-decoration: none; box-shadow: unset !important;}
+  a:hover { text-decoration: none;}
+  ul, li, label, span {list-style: none; padding: 0; margin: 0;}
+  p{padding: 0; margin: 0;}
+  input:focus {outline: unset; box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.5);}
+  .transition, .btn, .form-control, a, input, button{transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -webkit-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s;}
+  .container{max-width: 1230px;}
+  .position-u{position: unset;}
+  .position-r{position: relative;}
+  .flex-align{display: flex; align-items: center;}
+  .flex-bottom{display: flex; align-items: flex-end;}
+  .justify-center{justify-content: center; display: flex;}
+  .sub-heading {text-transform: uppercase; font-family: 'Poppins', sans-serif; padding-bottom: 3px;}
+  .heading-title {font-size: 40px; font-weight: 600; padding-bottom: 18px;}
+  .heading-des {max-width: 580px; margin: 0 auto;}
+  .heading-title-2 {font-size: 45px; font-weight: 600;}
+  .sub-heading-2 {font-size: 30px; font-weight: 600;}
+  .z-index-2{z-index: 2;}
+  .white-space{white-space: nowrap;}
+  .clear{clear: both;}
+  .top-scroll {position: fixed; visibility: hidden; opacity: 0; border-radius: 5px; z-index: 999; bottom: 15px; right: 15px; width: 35px; height: 35px; text-align: center; line-height: 32px; font-size: 26px;}
+  .top-scroll.fixed{visibility: visible; opacity: 1;}
+  #button{
+    margin-top: 4.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 22.5rem;
+    height: 4.5rem;
+    transform: skew(-15deg);
+    cursor: pointer;
+    background: #628e75;
+    border: 0;
+  }
+  .social{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    color: #f9f9f9;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0; padding: 0; font-family: 'Poppins', sans-serif; font-weight: 700;
+}
+.btn { font-family: 'Poppins', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; border: 1px solid; padding: 14px 22px; border-radius: 5px; position: relative; -webkit-transform: translateY(0px); transform: translateY(0px);}
+.btn:hover{-webkit-transform: translateY(-5px); transform: translateY(-5px);}
+.btn:before { content: ""; pointer-events: none; position: absolute; z-index: -1; top: 100%; left: 5%; height: 10px; width: 90%; opacity: 0; -webkit-transition-property: transform, opacity; transition-property: transform, opacity; transition: all 400ms ease;}
+.btn.btn-2 {border-radius: 50px;}
+.btn:hover:before {opacity: 1; -webkit-transform: translateY(5px); transform: translateY(5px);}
+.owl-dots {padding-top: 50px; text-align: center;}
+.owl-dot {width: 12px; height: 12px; margin: 0px 5px; border-radius: 100%;}
+.buttons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.6rem;
+  }
+  .buttons button {
+    position: relative;
+    width: 22.5rem;
+    height: 4.5rem;
+    transform: skew(-15deg);
+    cursor: pointer;
+    background: #628e75;
+    border: 0;
+  }
+  .buttons button:hover {
+    background: transparent;
+    border: 0.2rem solid #658e76;
+  }
+  .buttons button a {
+    position: absolute;
+    left: 19%;
+    top: 19%;
+    text-decoration: none;
+    transform: skew(15deg);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.88rem;
+    color: white;
+  }
+  .buttons .play {
+    margin-right: 2rem;
+   
+  }
+  .buttons .play a {
+    display: inline-flex;
+    color:white;
+  }
+  .buttons .play img {
+    margin-right: 1rem;
+  }
+/*----- Form Style -----*/
+.form-group {margin-bottom: 20px;}
+.form-control { border-radius: 5px; border: 0; height: unset; padding: 13px 30px;}
+textarea.form-control {min-height: 170px;}
+.form-control:focus{ outline: none; box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, .3);}
+
+/* preloader */
+#preloader {position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; background-size: 80px;}
+
+/*----- Header -----*/
+header {padding: 40px 0px; position: fixed; width: 100%; top: 0; left: 0; z-index: 999;}
+.logo{width: 100px;}
+.logo img:hover {opacity: 0.5;}
+.menu {display: flex; align-items: center; justify-content: flex-end;}
+.menu ul li{display: inline-block; padding: 0px 0px; position: relative;}    
+.menu ul li a{font-weight: 700; text-transform: uppercase; font-size: 16px; position: relative; padding: 10px 0px 30px 0px;}
+.signin {margin-left: 30px;}
+.signin .btn{padding: 9px 30px;}
+.menu > ul > li > a:before { content: ""; position: absolute; bottom: 20px; left: 0; width: 0; height: 2px; transition: all 400ms ease;}
+.opener{display: none; position: absolute; top: 20px; right: 15px; width: 18px; height: 18px; transform: translateY(-50%); z-index: 1;}
+.opener:before{content: ""; position: absolute; top: 50%; right: 1px; width: 16px; height: 2px; transform: translateY(-50%);}
+.opener:after{content: ""; position: absolute; top: 50%; right: 8px; width: 2px; height: 16px; transform: translateY(-50%); transition: all 400ms ease;}
+.menu-toggle{display: none; width: 26px; height: 18px; position: absolute; top: 50%; right: 0; transform: translateY(-50%);}
+.menu-toggle span, .menu-toggle span:before, .menu-toggle span:after{position: absolute; left: 50%; width: 100%; height: 2px; content: ""; transition: all 400ms ease;}
+.menu-toggle span{top: 50%; transform: translate(-50%, -50%);}
+.menu-toggle span:before{top: -8px; transform: translate(-50%);}
+.menu-toggle span:after{top: 8px; transform: translate(-50%);}
+.menu-toggle.active span:before{top: 0px; transform: translate(-50%) rotate(-45deg)}
+.menu-toggle.active span:after{top: 0px; transform: translate(-50%) rotate(45deg);}
+.opener.active:after {transform: rotate(90deg); top: 1px;}
+.info{
+    width: 44.5rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.88rem;
+}
+
+/*----- Sticky Header -----*/
+header.fixed {padding: 15px 0px;}
+/*----- Sticky Header End -----*/
+/*----- Header End -----*/
+
+/*_______________________________________________________
+// Home Page Style  //----------------------------
+_______________________________________________________*/
+/*----- Home Banner -----*/
+.home-banner {
+    padding: 134px 0px 0px 0px; overflow: hidden; background-color: var(--primary)  no-repeat center / cover; background-attachment: fixed;
+    background: linear-gradient(130.02deg, var(--secundary) 0.66%, var(--primary) 83.32%);
+    background-repeat: no-repeat;
+    box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+}
+.banner-heading {
+    font-size: 50px; padding-bottom: 10px;
+}
+.banner-des {
+    font-size: 16px; margin-bottom: 30px;
+}
+.banner-img {
+    animation: MoveUpDown 2s linear infinite;
+}
+@keyframes MoveUpDown{0%{position: relative; top:0;}50%{position: relative; top:10px;} 100%{position: relative; top:0;}}
+
+@media (max-width: 1200px) {
+  .container {
+    overflow-x: hidden;
+  }
+  .container header {
+    width: 80%;
+  }
+
+  .main-container {
+    padding: 4rem 0;
+    flex-direction: column-reverse;
+  }
+  .main-container .buttons .trailer {
+    display: none;
+  }
+  .main-container #bg img {
+    width: 100%;
+  }
+
+  #texts {
+    width: 80%;
+  }
+  #texts h2 {
+    font-size: 2rem;
+  }
+  #texts h1 {
+    font-size: 5.6rem;
+  }
+  #texts p {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+}
+@keyframes animation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
